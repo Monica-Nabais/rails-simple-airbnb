@@ -1,0 +1,10 @@
+<h2>Play for <%= @team.name %></h2>
+
+<p><strong>Oponent:</strong> <%= @team.oponent %></p>
+<p><strong>Competition:</strong> <%= @team.competition %></p>
+<p><strong>City:</strong> <%= @team.city %></p>
+<br>
+<p><strong>Price:</strong> <%= @team.price %>€</p>
+<p><strong>Date:</strong> <%= @team.game_day %></p>
+
+<%= link_to 'Back', teams_path %>

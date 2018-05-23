@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  oponent: MyString
+  city: MyString
+  competition: MyString
+  price: 1
+  game_day: 2018-05-23
+
+two:
+  name: MyString
+  oponent: MyString
+  city: MyString
+  competition: MyString
+  price: 1
+  game_day: 2018-05-23

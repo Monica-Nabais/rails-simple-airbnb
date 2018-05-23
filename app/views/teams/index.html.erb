@@ -1,0 +1,9 @@
+<h1>Rent a team</h1>
+<h2>Now you can fulfill your childhood dream and play for your favorite team!</h2>
+<br>
+<h3>Available games:</h3>
+<% @teams.each do |team| %>
+  <p>
+    ⚽️ <%= link_to team.name, team_path(team) %> x <%= team.oponent %>
+  </p>
+<% end %>
